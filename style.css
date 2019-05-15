@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(240,240,240);
+  color: #3A5154;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #272d2d;
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+}
+p {
+  padding: 0px 50px;
+}
+
+.profile_picture {
+  border-radius: 100px;
+}
+
+.container {
+  background-color: #fff;
+  text-align: center;
+  /*width: 500px;*/
+  margin: 50 auto;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 640px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline > li > a > i {
+  font-size: 48px;
+  margin: 10px;
+  color: #929AA2;
+}
+
+.list-inline > li > a > i:hover {
+  color: #3A5154;
+}
+
+.button {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  display: inline-block;
+  background-color: #929AA2;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  margin: 15px;
+}
+
+.button:hover {
+  background-color: #3A5154;
+}
+
+/*@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+*/
